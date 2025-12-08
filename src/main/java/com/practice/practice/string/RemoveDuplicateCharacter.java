@@ -10,27 +10,27 @@ public class RemoveDuplicateCharacter {
 		 String str = "ababbcddee";
 		 
 		 //Using LinkedHashSet
-	     StringBuilder result = new StringBuilder();
-	     Set<Character> set = new LinkedHashSet<>();
-	     for (char i : str.toCharArray()) {
-	         set.add(i); 
-	     }
-	     for (char i : set) {
-	         result.append(i);
-	     }
-	     System.out.println("Original: " + str);
-	     System.out.println("After removing duplicates: " + result.toString());
+//	     StringBuilder result = new StringBuilder();
+//	     Set<Character> set = new LinkedHashSet<>();
+//	     for (char i : str.toCharArray()) {
+//	         set.add(i); 
+//	     }
+//	     for (char i : set) {
+//	         result.append(i);
+//	     }
+//	     System.out.println("Original: " + str);
+//	     System.out.println("After removing duplicates: " + result.toString());
 	     
 	     
 	     //Normal Way
-//		 String result = "";
-//		 for (int i = 0; i < str.length(); i++) {
-//		     char ch = str.charAt(i);
-//		     if (result.indexOf(ch) == -1) {
-//		         result += ch;
-//		     }
-//		 }
-//		 System.out.println(result);
+		 String result = "";
+		 for (int i = 0; i < str.length(); i++) {
+		     char ch = str.charAt(i);
+		     if (result.indexOf(ch) == -1) {
+		         result += ch;
+		     }
+		 }
+		 System.out.println(result);
 		 
 		 
 		 //Using Stream api
