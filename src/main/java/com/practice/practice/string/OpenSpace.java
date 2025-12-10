@@ -1,4 +1,4 @@
-package com.practice.practice.rahulpatil;
+package com.practice.practice.string;
 
 public class OpenSpace {
     public static void main(String[] args) {
@@ -21,8 +21,7 @@ public class OpenSpace {
         }
 
         // Check for s3
-        i = 0;
-        j = 0;
+        i = 0; j = 0;
         while (i < s3.length() && j < s1.length()) {
             if (s3.charAt(i) == s1.charAt(j)) {
                 i++;

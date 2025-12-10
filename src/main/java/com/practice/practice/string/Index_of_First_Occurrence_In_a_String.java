@@ -5,7 +5,7 @@ package com.practice.practice.string;
 public class Index_of_First_Occurrence_In_a_String {
     
     public static void main(String[] args) {
-        System.out.println(strStr("leetcode", "leeto")); 
+        System.out.println(strStr("leetcode", "leet")); 
     }
     
     //First approach
