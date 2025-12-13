@@ -6,6 +6,7 @@ public class ConvertToUppperCase {
 		
 		String str= "Rahul";
 		System.out.println("Converted string to the uppercase : " +str.toUpperCase());
+		System.out.println("Substring : " +str.substring(2,3));
 		
 	}
 

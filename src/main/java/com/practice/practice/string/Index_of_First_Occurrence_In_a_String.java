@@ -5,9 +5,9 @@ package com.practice.practice.string;
 public class Index_of_First_Occurrence_In_a_String {
     
     public static void main(String[] args) {
-        System.out.println(strStr("leetcode", "leet")); 
+        System.out.println(strStr("leetcode", "leet"));
     }
-    
+
     //First approach
     public static int strStr(String haystack, String needle) {
     	for(int i=0; i<haystack.length()-needle.length()+1;i++) {
@@ -19,6 +19,7 @@ public class Index_of_First_Occurrence_In_a_String {
     	}
 		return -1;
     }
+    
     
     //Second approach
 //    public static int strStr(String haystack, String needle) {
