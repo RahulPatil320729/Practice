@@ -2,7 +2,7 @@ package com.practice.practice.string;
 
 ///leetcode 28
 
-public class Index_of_First_Occurrence_In_a_String {
+public class Index_of_First_Occurrence_In_a_String_Leetcode_28 {
     
     public static void main(String[] args) {
         System.out.println(strStr("leetcode", "leet"));

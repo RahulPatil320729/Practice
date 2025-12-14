@@ -18,8 +18,7 @@ public class Palindrome_String {
 		for(int i = len-1 ; i >=0 ; i--) {
 			rev = rev+str.charAt(i);
 		}
-		
-//		if(original_str.equals(rev)) {
+
 		if (original_str.toLowerCase().equals(rev.toLowerCase())) {
 			System.out.println("String is Palindrome");
 		}else {

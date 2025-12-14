@@ -1,4 +1,4 @@
-package com.practice.practice.string;
+package com.practice.practice.rahulpatil;
 
 public class StringPalindrome {
 

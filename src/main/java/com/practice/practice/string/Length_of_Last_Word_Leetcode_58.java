@@ -2,7 +2,7 @@ package com.practice.practice.string;
 
 //leetcode problem number 58
 
-public class Length_of_Last_Word {
+public class Length_of_Last_Word_Leetcode_58 {
 	
     public static void main(String[] args) {
         String str = "   fly me   to   the moon  ";

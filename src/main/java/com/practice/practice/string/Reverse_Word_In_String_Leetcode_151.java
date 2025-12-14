@@ -2,7 +2,7 @@ package com.practice.practice.string;
 
 //leetcode problem number 151
 
-public class Reverse_Word_In_String {
+public class Reverse_Word_In_String_Leetcode_151 {
 	
 	public static void main(String[] args) {
 		System.out.println(reverseWords(" The Sky    is  blue "));
