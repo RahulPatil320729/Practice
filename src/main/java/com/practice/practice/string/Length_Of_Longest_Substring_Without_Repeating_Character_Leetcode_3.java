@@ -14,10 +14,10 @@ public class Length_Of_Longest_Substring_Without_Repeating_Character_Leetcode_3 
 
 		String s = "abcdabcbb";
 		int start = 0;
-		int end = 0;
-		int max_length=0;
-		List<Character> list=new ArrayList<Character>();
+		int end =0;
+		int max_length = 0;
 		
+		List<Character> list = new ArrayList<Character>();
 		while(end<s.length()) {
 			if(!list.contains(s.charAt(end))) {
 				list.add(s.charAt(end));
@@ -28,7 +28,8 @@ public class Length_Of_Longest_Substring_Without_Repeating_Character_Leetcode_3 
 				start++;
 			}
 		}
-		System.out.println("Maximum Length Of Longest Substring Without Repeating Character : " +max_length);
+		System.out.println(max_length);
+		
 	}
 
 }

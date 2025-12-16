@@ -7,7 +7,7 @@ import java.util.Arrays;
 //Sort Two String using Arrays.Sort Method
 //Compare two String using Arrays Equals Method
 
-public class Check_Two_String_Are_Anagram {
+public class Anagram {
 
 	public static void main(String[] args) {
 		
