@@ -12,7 +12,7 @@ public class Anagram {
 	public static void main(String[] args) {
 		
 		String s1="keep";
-		String s2="peek";
+		String s2="eepk";
 		if(isAnagrams(s1, s2)) {
 			System.out.println(s1+ " and " +s2+ " are anagrams");
 		}else {
