@@ -12,7 +12,7 @@ public class WordPattern_Leetcode_290 {
 
 	public static void main(String[] args) {
 		String pattern="abba";
-		String s = "dog, cat, cat, fish";
+		String s = "dog, cat, cat, dog";
 		System.out.println(wordPattern(pattern, s));
 	}
 	
