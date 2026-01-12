@@ -1,27 +1,38 @@
 package com.practice.practice.string;
 
-///leetcode 28
+
+//Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
+
+//Example 1:
+//Input: haystack = "sadbutsad", needle = "sad"
+//Output: 0
+//Explanation: "sad" occurs at index 0 and 6.
+//The first occurrence is at index 0, so we return 0.
+		
+//Example 2:
+//Input: haystack = "leetcode", needle = "leeto"
+//Output: -1
+//Explanation: "leeto" did not occur in "leetcode", so we return -1.
 
 public class Index_of_First_Occurrence_In_a_String_Leetcode_28 {
-    
-    public static void main(String[] args) {
-        System.out.println(strStr("leetcode", "leet"));
-    }
 
-    //First approach
-    public static int strStr(String haystack, String needle) {
-    	for(int i=0 ; i < haystack.length()-needle.length()+1 ; i++) {
-    		if(haystack.charAt(i)==needle.charAt(0)) {
-    			if(haystack.substring(i, needle.length()+i).equals(needle)) {
-    				return i;
-    			}
-    		}
-    	}
+	public static void main(String[] args) {
+		System.out.println(strStr("leetcode", "leet"));
+	}
+
+	// First approach
+	public static int strStr(String haystack, String needle) {
+		for (int i = 0; i < haystack.length() - needle.length() + 1; i++) {
+			if (haystack.charAt(i) == needle.charAt(0)) {
+				if (haystack.substring(i, needle.length() + i).equals(needle)) {
+					return i;
+				}
+			}
+		}
 		return -1;
-    }
-    
-    
-    //Second approach
+	}
+
+	// Second approach
 //    public static int strStr(String haystack, String needle) {
 //        int n = haystack.length();
 //        int m = needle.length();
@@ -39,6 +50,10 @@ public class Index_of_First_Occurrence_In_a_String_Leetcode_28 {
 //        }
 //        return -1; 
 //    }
-    
-    
+
+	// Third approach
+//	public static int strStr(String haystack, String needle) {
+//		return haystack.indexOf(needle);
+//	}
+
 }
