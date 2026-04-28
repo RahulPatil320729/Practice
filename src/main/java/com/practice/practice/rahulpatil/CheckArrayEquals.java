@@ -29,7 +29,7 @@ public class CheckArrayEquals {
 		} else {
 			status = false;
 		}
-		if (status = true) {
+		if (status == true) {
 			System.out.println("Array is Equal");
 		} else {
 			System.out.println("Array is not Equal");
